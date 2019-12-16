@@ -1,0 +1,16 @@
+docker pull subhani007/mlba_project
+docker run --name=final -itd subhani007/mlba_project
+docker exec -it final /bin/bash
+python3 file.py
+
+
+docker pull akhilpalla/mt18130_akhil_a2
+docker run --name=final -itd akhilpalla/mt18130_akhil_a2
+docker exec -it final /bin/bash
+docker commit final subhani007/mlba_project
+docker push subhani007/mlba_project:latest
+
+cd 
+docker cp source.zip final:/gpsr/.
+
+python3 file.py

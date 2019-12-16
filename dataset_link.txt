@@ -1,0 +1,3 @@
+https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original)
+
+https://www.kdd.org/kdd-cup/view/kdd-cup-2008/Data
